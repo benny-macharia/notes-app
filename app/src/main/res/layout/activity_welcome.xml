@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Notes App"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#333"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture your thoughts, organize your ideas"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="#666"
+            android:layout_marginBottom="48dp"/>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:backgroundTint="#6200EE"
+            app:cornerRadius="12dp"
+            android:padding="16dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "121432870539",
+    "firebase_url": "https://notesapp-fbb32-default-rtdb.europe-west1.firebasedatabase.app",
+    "database_url": "https://notesapp-fbb32-default-rtdb.europe-west1.firebasedatabase.app", 
+    "project_id": "notesapp-fbb32",
+    "storage_bucket": "notesapp-fbb32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121432870539:android:33f3a8abcf13c465150e8e",
+        "android_client_info": {
+          "package_name": "com.example.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSZfKtN3IzO6cNOfv_GUyMdB0nocQSCh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
